@@ -75,7 +75,7 @@ nav > button:active {
 }
 
 @media(hover: hover) {
-    nav > div > a:hover {
+    nav > button:hover {
         background-color: #a0851a;
         color: black;
         transition: 250ms;
