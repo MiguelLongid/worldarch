@@ -45,10 +45,18 @@ nav > div > a {
     background-color: #512894;
 }
 
-nav > div> a:hover, nav > div > a:active {
+nav > div > a:active {
     background-color: #EBC323;
     color: black;
     transition: 250ms;
+}
+
+@media(hover: hover) and (pointer: fine) {
+    nav > div > a:hover {
+        background-color: #EBC323;
+        color: black;
+        transition: 250ms;
+    }
 }
 
 nav > button {
@@ -60,11 +68,21 @@ nav > button {
     text-align: center;
 }
 
-nav > button:hover, nav > button:active {
+nav > button:active {
     background-color: #a0851a;
     color: black;
     transition: 250ms;
 }
+
+@media(hover: hover) and (pointer: fine) {
+    nav > div > a:hover {
+        background-color: #a0851a;
+        color: black;
+        transition: 250ms;
+    }
+}
+
+
 
 .dropdown-content {
     display: none;
@@ -97,14 +115,6 @@ nav > button:hover, nav > button:active {
 
 #welcome > div > p {
     padding: 1rem 0;
-}
-
-@media(hover: hover) and (pointer: fine) {
-    nav > div > a:hover {
-        background-color: #EBC323;
-        color: black;
-        transition: 250ms;
-    }
 }
 
 @media (min-width: 1000px) {
