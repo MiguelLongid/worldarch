@@ -1,0 +1,76 @@
+/* * {
+    background-color: aqua;
+    color: white;
+    outline: 1px solid white;
+} */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    color: white;
+    background-color: black;
+}
+
+header > div {
+    max-width: 1000px;
+    margin: auto;
+    padding: 1rem;
+}
+
+header > div > h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+header > div > p {
+    font-size: 1rem;
+}
+
+nav {
+    background-color: #512894;
+}
+
+nav > div {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+}
+
+nav > div > a {
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    transition: 250ms;
+}
+
+nav > div> a:hover {
+    background-color: #EBC323;
+    color: black;
+}
+
+#welcome {
+    background-color: gray;
+    color: white;
+}
+
+#welcome > div {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+#welcome > div > hr {
+    border-top: 1px solid;
+}
+
+#welcome > div > h2 {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    font-weight: 600;;
+}
+
+#welcome > div > p {
+    padding: 1rem 0;
+}
