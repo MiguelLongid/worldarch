@@ -40,12 +40,18 @@ nav > div > a {
     text-align: center;
     color: white;
     padding: 1rem;
-    transition: 250ms;
 }
 
 nav > div> a:hover {
     background-color: #EBC323;
     color: black;
+    transition: 250ms;
+}
+
+nav > div > a:active {
+    background-color: #EBC323;
+    color: black;
+    transition: 250ms;
 }
 
 .sticky {
@@ -70,6 +76,13 @@ nav > button {
 nav > button:hover {
     background-color: #a0851a;
     color: black;
+    transition: 250ms;
+}
+
+nav > button:active {
+    background-color: #EBC323;
+    color: black;
+    transition: 0s;
 }
 
 .dropdown-content {
