@@ -52,6 +52,11 @@ nav > div> a:hover {
 .sticky {
     position: fixed;
     top: 0;
+    width: 100%;
+}
+
+.sticky + #content {
+    padding-top: 162px;
 }
 
 #welcome {
@@ -88,6 +93,10 @@ nav > div> a:hover {
         width: 1000px;
         margin: auto;
         flex-direction: row;
+    }
+
+    .sticky + #content {
+        padding-top: 54px;
     }
 
     #welcome > div {
