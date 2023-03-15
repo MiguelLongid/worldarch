@@ -45,13 +45,7 @@ nav > div > a {
     background-color: #512894;
 }
 
-nav > div> a:hover {
-    background-color: #EBC323;
-    color: black;
-    transition: 250ms;
-}
-
-nav > div > a:active {
+nav > div> a:hover, nav > div > a:active {
     background-color: #EBC323;
     color: black;
     transition: 250ms;
@@ -66,16 +60,10 @@ nav > button {
     text-align: center;
 }
 
-nav > button:hover {
+nav > button:hover, nav > button:active {
     background-color: #a0851a;
     color: black;
     transition: 250ms;
-}
-
-nav > button:active {
-    background-color: #EBC323;
-    color: black;
-    transition: 0s;
 }
 
 .dropdown-content {
