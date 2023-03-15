@@ -14,8 +14,7 @@ header {
 }
 
 header > div {
-    max-width: 1000px;
-    margin: auto;
+    width: 100%;
     padding: 1rem;
 }
 
@@ -33,9 +32,8 @@ nav {
 }
 
 nav > div {
+    width: 100%;
     display: flex;
-    width: 1000px;
-    margin: auto;
 }
 
 nav > div > a {
@@ -56,8 +54,7 @@ nav > div> a:hover {
 }
 
 #welcome > div {
-    max-width: 1000px;
-    margin: auto;
+    width: 100%;
     padding: 0 1rem;
 }
 
@@ -73,4 +70,21 @@ nav > div> a:hover {
 
 #welcome > div > p {
     padding: 1rem 0;
+}
+
+@media (min-width: 1000px) {
+    header > div {
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    nav > div {
+        width: 1000px;
+        margin: auto;
+    }
+
+    #welcome > div {
+        max-width: 1000px;
+        margin: auto;
+    }
 }
