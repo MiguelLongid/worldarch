@@ -11,8 +11,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-    
-    <script src="./js/sticky-navbar.js"></script>
 
     <title>Index</title>
 </head>
@@ -23,19 +21,24 @@
             <p>An unofficial ACS student cultural archive</p>
         </div>
     </header>
-    <nav>
-        <div id="navbar">
+    <nav id="navbar">
+        <button onclick="dropDown()"></button>
+        <div>
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="#">Contact</a>
         </div>
     </nav>
-    <section id="welcome">
-        <div>
-            <h2>Welcome!</h2>
-            <hr>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repudiandae labore facilis aliquam non laborum aspernatur debitis quibusdam minima autem vitae quod doloribus, quae omnis?</p>
-        </div>
-    </section>
+    <div id="content">
+        <section id="welcome">
+            <div>
+                <h2>Welcome!</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repudiandae labore facilis aliquam non laborum aspernatur debitis quibusdam minima autem vitae quod doloribus, quae omnis?</p>
+            </div>
+        </section>
+        <div style="height: 10000px;"></div>
+    </div>
 </body>
+<script src="./js/sticky-navbar.js"></script>
 </html>
