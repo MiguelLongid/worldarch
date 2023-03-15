@@ -99,6 +99,14 @@ nav > button:hover, nav > button:active {
     padding: 1rem 0;
 }
 
+@media(hover: hover) and (pointer: fine) {
+    nav > div > a:hover {
+        background-color: #EBC323;
+        color: black;
+        transition: 250ms;
+    }
+}
+
 @media (min-width: 1000px) {
     header > div {
         max-width: 1000px;
