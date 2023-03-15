@@ -4,9 +4,13 @@
     outline: 1px solid white;
 } */
 
+/* Declaring font */
+
 * {
     font-family: 'Open Sans', sans-serif;
 }
+
+/* Header styles */
 
 header {
     color: white;
@@ -26,6 +30,8 @@ header > div > h1 {
 header > div > p {
     font-size: 1rem;
 }
+
+/* Navbar styles */
 
 nav {
     background-color: #512894;
@@ -82,6 +88,8 @@ nav > button:active {
     }
 }
 
+/* Dropdown animation styles */
+
 .dropdown-content {
     display: none;
 }
@@ -90,6 +98,8 @@ nav > button:active {
     display: flex;
     position: absolute;
 }
+
+/* Content styles */
 
 #welcome {
     background-color: gray;
