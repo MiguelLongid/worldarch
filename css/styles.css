@@ -29,6 +29,8 @@ header > div > p {
 
 nav {
     background-color: #512894;
+    position: sticky;
+    top: 0;
 }
 
 nav > div {
@@ -40,6 +42,7 @@ nav > div > a {
     text-align: center;
     color: white;
     padding: 1rem;
+    background-color: #512894;
 }
 
 nav > div> a:hover {
@@ -52,16 +55,6 @@ nav > div > a:active {
     background-color: #EBC323;
     color: black;
     transition: 250ms;
-}
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.sticky + #content {
-    padding-top: 54px;
 }
 
 nav > button {
@@ -86,11 +79,12 @@ nav > button:active {
 }
 
 .dropdown-content {
-    display:none;
+    display: none;
 }
 
 .show{
     display: flex;
+    position: absolute;
 }
 
 #welcome {
