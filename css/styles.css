@@ -119,6 +119,7 @@ nav > button:active {
 
     .dropdown-content {
         display: flex;
+        position: static;
     }
 
     nav > div {
