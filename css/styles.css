@@ -45,7 +45,6 @@ nav > div {
 }
 
 nav > div > a {
-    text-align: center;
     color: white;
     padding: 1rem;
     background-color: #512894;
@@ -70,7 +69,8 @@ nav > button {
     width: 100%;
     padding: 1rem;
     color: white;
-    display: block;
+    display: flex;
+    justify-content:space-between;
     text-align: center;
 }
 
