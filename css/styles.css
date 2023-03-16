@@ -126,10 +126,10 @@ nav > button:active {
     position: absolute;
 }
 
-/* Content styles */
+/* Welcome styles */
 
 #welcome {
-    background-color: gray;
+    background-color: #636363;
     color: white;
 }
 
