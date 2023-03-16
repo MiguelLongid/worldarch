@@ -193,6 +193,11 @@ nav > button:active {
     margin-bottom: 0.5rem;
 }
 
+.quicklink:active {
+    background-color: #a0851a;
+    transition: 0s;
+}
+
 @media(hover: hover) {
     .quicklink:hover {
         background-color: #a0851a;
