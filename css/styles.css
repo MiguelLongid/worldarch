@@ -152,7 +152,7 @@ nav > button:active {
     padding: 1rem 0;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 500px) {
     header > div {
         max-width: 1000px;
         margin: auto;
