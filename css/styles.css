@@ -10,6 +10,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+em {
+    font-style: italic;
+}
+
 /* Header styles */
 
 header {
@@ -114,6 +118,7 @@ nav > button:active {
 
 .dropdown-content {
     display: none;
+    overflow-x: hidden;
 }
 
 .show{
@@ -174,7 +179,7 @@ nav > button:active {
 
     nav > div {
         flex-direction: row;
-        width: 1000px;
+        max-width: 1000px;
         margin: auto;
     }
 
